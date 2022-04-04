@@ -13,6 +13,8 @@
 		BB79C78E27F9F82C00D03CB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB79C78C27F9F82C00D03CB5 /* Main.storyboard */; };
 		BB79C79027F9F82D00D03CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB79C78F27F9F82D00D03CB5 /* Assets.xcassets */; };
 		BB79C79327F9F82D00D03CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB79C79127F9F82D00D03CB5 /* LaunchScreen.storyboard */; };
+		BBCBA3E227FAE4C80003A20D /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBA3E127FAE4C80003A20D /* APICaller.swift */; };
+		BBCBA3E627FAED8F0003A20D /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCBA3E527FAED8F0003A20D /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		BB79C78F27F9F82D00D03CB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB79C79227F9F82D00D03CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB79C79427F9F82D00D03CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBCBA3E127FAE4C80003A20D /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		BBCBA3E527FAED8F0003A20D /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				BB79C78627F9F82C00D03CB5 /* AppDelegate.swift */,
 				BB79C78827F9F82C00D03CB5 /* SceneDelegate.swift */,
 				BB79C78A27F9F82C00D03CB5 /* ViewController.swift */,
+				BBCBA3E127FAE4C80003A20D /* APICaller.swift */,
+				BBCBA3E527FAED8F0003A20D /* NewsTableViewCell.swift */,
 				BB79C78C27F9F82C00D03CB5 /* Main.storyboard */,
 				BB79C78F27F9F82D00D03CB5 /* Assets.xcassets */,
 				BB79C79127F9F82D00D03CB5 /* LaunchScreen.storyboard */,
@@ -140,7 +146,9 @@
 			files = (
 				BB79C78B27F9F82C00D03CB5 /* ViewController.swift in Sources */,
 				BB79C78727F9F82C00D03CB5 /* AppDelegate.swift in Sources */,
+				BBCBA3E627FAED8F0003A20D /* NewsTableViewCell.swift in Sources */,
 				BB79C78927F9F82C00D03CB5 /* SceneDelegate.swift in Sources */,
+				BBCBA3E227FAE4C80003A20D /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
